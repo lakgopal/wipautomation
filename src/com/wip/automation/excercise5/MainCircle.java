@@ -4,13 +4,12 @@ public class MainCircle {
 
   public static void main(String[] args) {
     // TODO Auto-generated method stub
-    
-    Circle cir=new Circle();
-    double cirarea = cir.area(3);
-    double perimeter=cir.perimeter(2);
-    System.out.println("The area of circle is:" +cirarea);
-    System.out.println("The perimeter circle is:" +perimeter);
 
-  }
+    Circle cir = new Circle(20);
+    Circle cir1 = new Circle(10);
+    System.out.println("The area of circle is:" + cir.area());
+    System.out.println("The perimeter circle is:" + cir.perimeter());
+    System.out.println("The perimeter circle is:" + cir.ctr);
+ }
 
 }
